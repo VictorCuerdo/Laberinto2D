@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Goal
   layers:
   - Default
   - TransparentFX
@@ -11,11 +13,11 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
-  - Enemy
-  - Palet
-  - Obstaculos
-  - Node
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -40,4 +42,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 475738755
     locked: 0

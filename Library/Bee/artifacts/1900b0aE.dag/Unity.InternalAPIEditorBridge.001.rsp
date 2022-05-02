@@ -109,6 +109,10 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"D:/Proyectos_Unity/Laberinto2D/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"D:/Proyectos_Unity/Laberinto2D/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/IonicZip.dll"
+-r:"D:/Proyectos_Unity/Laberinto2D/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/YamlDotNet.dll"
+-r:"D:/Proyectos_Unity/Laberinto2D/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll"
+-r:"D:/Proyectos_Unity/Laberinto2D/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll"
 -r:"D:/Unity/2021.1.0f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/Unity/2021.1.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Unity/2021.1.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -310,9 +314,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.2d.common@4.0.4/Editor/InternalBridge/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.2d.common@4.0.4/Editor/InternalBridge/InternalEditorBridge.cs"
-"Library/PackageCache/com.unity.2d.common@4.0.4/Editor/InternalBridge/TexturePlatformSettings/TexturePlatformSettings.cs"
+"Library/PackageCache/com.unity.2d.common@4.0.3/Editor/InternalBridge/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.2d.common@4.0.3/Editor/InternalBridge/InternalEditorBridge.cs"
+"Library/PackageCache/com.unity.2d.common@4.0.3/Editor/InternalBridge/TexturePlatformSettings/TexturePlatformSettings.cs"
 -langversion:8.0
 
 /deterministic
