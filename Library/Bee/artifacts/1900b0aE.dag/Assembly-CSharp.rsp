@@ -350,6 +350,8 @@
 "Assets/Scripts/Menu/OptionsMenu.cs"
 "Assets/Scripts/PathManager/BoardManager.cs"
 "Assets/Scripts/PathManager/PathManager.cs"
+"Assets/Scripts/Sounds/AudioManager.cs"
+"Assets/Scripts/Sounds/Sound.cs"
 "Assets/UI pack/Scripts/FillValueNumber.cs"
 -langversion:8.0
 
