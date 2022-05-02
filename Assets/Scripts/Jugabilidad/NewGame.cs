@@ -8,6 +8,6 @@ public class NewGame : MonoBehaviour
     public void Again(){
         PlayerPrefs.SetInt("level", 1);
         PlayerPrefs.SetInt("time", 0);
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("Niveles");
     }
 }

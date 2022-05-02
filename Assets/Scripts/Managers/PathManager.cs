@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-// ref: https://www.youtube.com/watch?v=alU04hvz6L4&t=1065s
+
 
 public class PathManager : MonoBehaviour
 {
@@ -51,7 +51,7 @@ public class PathManager : MonoBehaviour
             if (currentNode == endCell)
             {
                 // Reached final node
-                Debug.Log("Reach the end");
+                Debug.Log("Alcanzo el final");
                 return CalculatePath(endCell);
             }
 
@@ -83,7 +83,7 @@ public class PathManager : MonoBehaviour
                 //PathfindingDebugStepVisual.Instance.TakeSnapshot(grid, currentNode, openList, closedList);
             }
         }
-        Debug.Log("Did not reach the end");
+        Debug.Log("No alcanzo el final");
         return null;
     }
 

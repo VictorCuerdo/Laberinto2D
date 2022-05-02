@@ -105,18 +105,18 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            SceneManager.LoadScene("LoseScene");
+            SceneManager.LoadScene("Derrota");
         }
         if (collision.gameObject.tag == "Goal")
         {
             if (PlayerPrefs.GetInt("level") == 4)
             {
-                SceneManager.LoadScene("WinScene");
+                SceneManager.LoadScene("Victoria");
             }
             else
             {
                 PlayerPrefs.SetInt("level", PlayerPrefs.GetInt("level") + 1);
-                SceneManager.LoadScene("MainScene");
+                SceneManager.LoadScene("Niveles");
             }
         }
     }
